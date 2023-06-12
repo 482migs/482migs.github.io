@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/base.css" rel="stylesheet" />
+    <link href="src/styles.less" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>482migs</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top">
+        <img src="/logo.png" alt="my logo" id="logo">
+        <h1>482migs</h1>
+        <ul id="nav">
+          <li><a href="#about">about me</a> /</li>
+          <li><a href="#projects">projects</a> /</li>
+          <li><a href="https://github.com/482migs/">github</a> </li>
+          <!-- TODO: Theme switcher
+            <li><a onclick="theme()" id="theme"></a></li>
+          -->
+        </ul><br/>
+        <span id="taunt">⌄</span>
+      </div>
+      <div id="about">
+        <h1>about me</h1>
+        <p>hi! i'm 482migs, and i like to write code and drink coffee.<br/>
+          i mainly use <a href="https://vlang.io">vlang</a> and <a href="https://go.dev">golang</a><br/></p>
+        <p>
+          i have a weird obsession with writing programming languages, <br/>but
+          they never seem to work out. i'm currently working on<br/>
+          <a href="https://github.com/firlang/fir">fir</a>, which hopefully won't flop.
+        </p>
+      </div>
+      <div id="projects">
+        <h1>my projects</h1>
+        <ul id="projs">
+          <li><a href="https://github.com/firlang/fir">fir</a> - a programming language (in development)</li>
+        </ul><br/>
+        if you want to contribute to any of these, just fork the repo.
+      </div>
+    </div>
+    <footer>
+      powered by <img src="/vite.svg" /> and <img src="/ts.svg" /> | © 2023 482migs | <a href="https://github.com/482migs/482migs.github.io">GitHub</a>
+    </footer>
+    <script src="src/theme.ts"></script>
+  </body>
+</html>
